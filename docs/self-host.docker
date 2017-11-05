@@ -1,4 +1,4 @@
-FROM vladikoff/fxa-slim-image:latest
+FROM oddomatik/fxa-slim-image:latest
 
 RUN adduser --disabled-password --gecos '' fxa && adduser fxa sudo && echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
